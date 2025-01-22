@@ -1,0 +1,15 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"tailwindcss build src/styles.css -o public/syles.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
