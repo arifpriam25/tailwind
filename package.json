@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwindcss build src/styles.css -o public/syles.css"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "dependencies": {
     "tailwindcss": "^3.4.17"
