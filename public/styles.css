@@ -564,8 +564,16 @@ video {
   visibility: collapse;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .relative{
   position: relative;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .m-4{
@@ -582,6 +590,10 @@ video {
 
 .ml-2{
   margin-left: 0.5rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .block{
@@ -668,6 +680,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
 .border{
   border-width: 1px;
 }
@@ -725,6 +741,10 @@ video {
   padding: 1rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -769,6 +789,11 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
