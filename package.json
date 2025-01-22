@@ -8,7 +8,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server public",
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
     "build:css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "dependencies": {
