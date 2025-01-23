@@ -1,6 +1,6 @@
 start with 2 terminal 
 - npm run dev
-- npm run build-css
+- npm run build:css
 
 
 note : 
